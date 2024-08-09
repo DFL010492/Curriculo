@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     
-    const accButtons = document.querySelectorAll('.botao-acordeao, .botao-acordeao1');
+    const cascata = document.querySelectorAll('.botao-acordeao, .botao-acordeao1');
     
-        accButtons.forEach(button => {
+        cascata.forEach(button => {
 
             button.addEventListener('click', function () {
 
